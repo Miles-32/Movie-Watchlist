@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <section class="header">
+            <h1 class="header-text">Find your film</h1>
+            <h2 class="header-text"><a href="watchlist.html">My Watchlist</a></h2>
+        </section>
+        <div class="search">
+            <div class="search-bar">
+                <img src="./icons/search.svg" class="icon" />
+                <input id="search-input" type="text" placeholder="Blade Runner">
+            </div>
+            <button id="search-btn">Search</button>
+        </div>
+        <section class="movie-feed" id="movie-feed">
+            <div id="placeholder-movie-feed">
+                <img id="reel" src="./icons/reel.png">
+                <h3 class="placeholder-text">Start exploring</h3>
+            </div>
+        </section>
+        <div id="film-add-modal">
+            <p id="modal-text">Film added to watchlist</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
