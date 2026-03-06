@@ -63,10 +63,11 @@ section.movie-feed, section.watchlist-feed {
 
 .new-movie {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     margin: 0 2em;
     height: 175px;
     padding: 2em 0;
+    color: white;
 }
 
 .new-movie:not(:last-child) {
@@ -171,7 +172,7 @@ h1, h2, p {
 }
 
 section.header > h1, h2 {
-    margin: 1em;
+    margin: 1em 1.5em;
 } 
 
 h1 {
@@ -190,10 +191,6 @@ p#add-films {
     color: #2E2E2F;
     font-weight: bold;
     font-size: 1.25rem;
-}
-
-.new-movie {
-    color: white
 }
 
 .prompt-text {
@@ -279,5 +276,11 @@ img.inline {
     
     #movie-feed, #watchlist-feed {
         font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 551px) {
+    h2 {
+        font-size: 1.25em;
     }
 }
