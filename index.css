@@ -24,12 +24,12 @@ section.movie-feed, section.watchlist-feed {
     flex-direction: column;
     justify-content: flex-start;
     text-align: center;
-    align-items: center;
+    align-items: flex-start;
     padding-top: 2em;
 }
 
 #placeholder-movie-feed, #placeholder-watchlist-feed {
-    margin-top: 5em;
+    margin: 5em auto 0;
 }
 
 .search {
@@ -64,10 +64,11 @@ section.movie-feed, section.watchlist-feed {
 .new-movie {
     display: flex;
     justify-content: flex-start;
-    margin: 0 2em;
-    height: 175px;
-    padding: 2em 0;
+    margin: 0;
+    padding: 2em;
     color: white;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .new-movie:not(:last-child) {
