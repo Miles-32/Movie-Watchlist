@@ -20,6 +20,8 @@ A responsive movie search and watchlist app built with **vanilla JavaScript** an
 
 ## Tech Stack
 
+| Technology | Purpose |
+|---|---|
 | JavaScript (ES6+) | Application logic & async data fetching |
 | HTML5 | Structure & two-page layout |
 | CSS3 | Styling & responsive design |
